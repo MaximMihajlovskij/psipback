@@ -1,0 +1,55 @@
+/* dark_theme.css */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-theme header, 
+  .dark-theme main, 
+  .dark-theme footer {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-theme .logo img,
+  .dark-theme .navigation p,
+  .dark-theme .navigation button,
+  .dark-theme .theme img,
+  .dark-theme .photo_left img,
+  .dark-theme .centre img,
+  .dark-theme .more_photo p,
+  .dark-theme .more_photo img,
+  .dark-theme .social img,
+  .dark-theme .right img,
+  .dark-theme .cont_cat .photo img,
+  .dark-theme .btnn input,
+  .dark-theme .btnn button,
+  .dark-theme .bl p,
+  .dark-theme .better h2,
+  .dark-theme .better .cont_fl .c img,
+  .dark-theme .credit .cr_left h2,
+  .dark-theme .credit .cr_left h3,
+  .dark-theme .credit .cr_left .inp input,
+  .dark-theme .credit .cr_left .inp button,
+  .dark-theme .credit .cr_left p,
+  .dark-theme .visit_left h2,
+  .dark-theme .visit_left h3,
+  .dark-theme .visit_left p,
+  .dark-theme .visit_left button,
+  .dark-theme .visit_right iframe,
+  .dark-theme .foot_top img,
+  .dark-theme .foot_top p,
+  .dark-theme .foot_top button,
+  .dark-theme .foot_bot p {
+    color: #ffffff;
+    filter: invert(1);
+  }
+  
+  .dark-theme .btnn input,
+  .dark-theme .btnn button,
+  .dark-theme .credit .cr_left .inp input,
+  .dark-theme .credit .cr_left .inp button,
+  .dark-theme .visit_left button {
+    background-color: #333333;
+    border: 1px solid #ffffff;
+  }
+  

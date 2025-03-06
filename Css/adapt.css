@@ -1,0 +1,147 @@
+@media (max-width: 1650px){
+    .btnn input{
+        display: none;
+    }
+    .order .btnn{
+        justify-content: center;
+    }
+    .photo img{
+        width: 80%;
+    }
+    .inp input{
+        width: 100%;
+    }
+    .inp button{
+        width: 100%;
+    }
+    .cont_fl{
+        flex-direction: column;
+    }
+    .credit{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .rg_1 img, .rg_2 img, .rg_3 img{
+        width: 100%;
+    }
+    .visit{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .visit_left button{
+        width: 100%;
+    }
+    iframe{
+        margin-top: 5%;
+        width: 100%;
+        height: 100%;
+    }
+    .navigation button{
+        padding: 5px 10px;
+    }
+    header .container{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .container .left{
+        display: grid;
+        width: 100%;
+        grid-template-rows: 15% 80% 5%;
+        grid-template-columns: 40% 45% 15%;
+      }
+      
+      .container .right{
+       display: none;
+      }
+      .visit_right{
+        width: 100%;
+        height: 30%;
+    }
+    .c{
+        height: 150px;
+    }
+    .catalog{
+        margin: 0;
+    }
+}
+
+@media (max-width: 900px){
+    .container .left{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 5%;
+      }
+      .photo_left img{
+        display: none;
+      }
+      .theme img:nth-child(1){
+        display: none;
+        
+     }
+     .theme{
+        justify-content: end;
+        margin-right: 5%;
+     }
+     .navigation{
+        display: none;
+     }
+     .more_photo{
+        margin-top: 2%;
+     }
+     .social{
+        display: none;
+     }
+     .order h2{
+        padding-top: 2%;
+        font-size: 20px;
+     }
+     .order p,
+     .cr_left h3,
+     .visit_left h3{
+        margin-top: 0;
+        font-size: 16px;
+     }
+     .better h2,
+     .cr_left h2,
+     .visit_left h2{
+        font-size: 30px;
+     }
+     .foot_top{
+        flex-direction: column;
+     }
+     .foot_top p{
+        margin: 2%;
+     }
+     .foot_top button{
+        width: 60%;
+        margin-top: 2%;
+     }
+     .visit_right{
+        width: 100%;
+    }
+    .btnn button{
+        width: 80%;
+    }
+    .bl p{
+        text-wrap: wrap;
+    }
+    .centre img{
+        width: 50%;
+    }
+    .navigation p{
+        display: none;
+    }
+    .centre #first,
+    .centre #second{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .img_top{
+        margin-top: 10%;
+    }
+}
